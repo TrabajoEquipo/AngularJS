@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html ng-app>
+
+	<head >
+		<title>Mi Primera app con Angular</title>
+		<meta charset="utf-8">
+
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"> </script>
+
+		<style >
+			.hover{
+				background-color: rgb(200,100,100);
+			}
+
+		</style>
+		
+	</head>
+		<button ng-mouseover="flag=true" ng-mouseout="flag=false" ng-class="{hover:flag}"> Hacer click</button>
+		<span ng-show="flag">&lt; click</span>
+
+	<body >
+		
+
+	</body>
+
+</html>
